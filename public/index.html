@@ -2,32 +2,15 @@
 <html>
     <head>
         <meta charset=utf-8 />
-
-        <!-- Website Design By: www.happyworm.com -->
-        <title>Demo : jPlayer as an audio player</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <title>musicPlayerForProgramming();</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF8" />
         <link href="skin/blue.monday/jplayer.blue.monday.css" rel="stylesheet" type="text/css" />
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
-        <script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $("#jquery_jplayer_1").jPlayer({
-                    ready: function () {
-                        $(this).jPlayer("setMedia", {
-                            mp3:"http://datashat.net/music_for_programming_18-konx_om_pax.mp3"
-                        });
-                    },
-                    swfPath: "js",
-                    supplied: "mp3",
-                    wmode: "window"
-                });
-            });
-        </script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+        <script src="js/jquery.jplayer.min.js"></script>
+        <script src="index.js"></script>
     </head>
     <body>
-
         <div id="jquery_jplayer_1" class="jp-jplayer"></div>
-
         <div id="jp_container_1" class="jp-audio">
             <div class="jp-type-single">
                 <div class="jp-gui jp-interface">
@@ -67,6 +50,9 @@
                     To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
                 </div>
             </div>
+        </div>
+        <div class="reference">
+            Refer <a href="http://musicforprogramming.com/">musicForProgramming();</a>
         </div>
     </body>
 </html>
